@@ -33,7 +33,7 @@ export function HeroSection() {
           </div>
           <div className="flex justify-center">
             <img
-              src="/placeholder.svg?height=400&width=500"
+              src="https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/486648721_1137644465046954_2099064320429551283_n.jpg?stp=cp6_dst-jpg_s1080x2048_tt6&_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=FF8BufEQ1VIQ7kNvwFEIxEy&_nc_oc=Adls4AMk027HL3Q081xICzDbPSY8e89C28x0nGVSaY81OUeCBh2pkA6RyeQfn5EAjOc&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=O7728uTfwbYqIbtwslfSjQ&oh=00_AfNn-NQ4p18xy2Zi1hd_z5aLk0IZPYUQwXImYm48bIhdjQ&oe=685A408F"
               alt="Professional mover with truck"
               className="rounded-lg shadow-lg max-w-full h-auto"
             />
