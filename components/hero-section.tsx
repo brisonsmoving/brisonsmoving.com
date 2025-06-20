@@ -16,7 +16,7 @@ export function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Fast, Reliable Moving & Junk Removal in <span className="text-red-600">Alpharetta</span>
+              Fast, Reliable Moving & Junk Removal Near <span className="text-red-600">Alpharetta, GA</span>
             </h1>
             <p className="text-xl text-gray-600 mt-6 leading-relaxed">
               Brison Culpepper offers affordable and stress-free local moves, cleanouts, and hauling.

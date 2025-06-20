@@ -6,7 +6,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Brison Culpepper</h3>
             <p className="text-gray-300 leading-relaxed">
-              Professional moving and junk removal services in Alpharetta, GA. Fast, reliable, and affordable solutions
+              Professional moving and junk removal services near Alpharetta, GA. Fast, reliable, and affordable solutions
               for all your needs.
             </p>
           </div>
@@ -24,8 +24,8 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-300">
-              <p>(123) 456-7890</p>
-              <p>brison@example.com</p>
+              <p>(678) 237-5235</p>
+              <p>brisonculpepper@gmail.com</p>
               <p>Alpharetta, GA</p>
             </div>
           </div>
@@ -33,7 +33,7 @@ export function Footer() {
 
         <div className="border-t border-blue-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-300 text-sm">© 2025 Brison's Moving & Junk Removal. All rights reserved.</p>
+            <p className="text-gray-300 text-sm">© 2025 Brison's Moving & Junk Removal, LLC. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               {/* <a href="#" className="text-gray-300 hover:text-white text-sm transition-colors"> */}
               {/*   Privacy Policy */}

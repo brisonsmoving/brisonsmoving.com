@@ -5,7 +5,7 @@ export function HowItWorksSection() {
     {
       icon: <MessageCircle className="h-16 w-16 text-red-600" />,
       title: "Tell us what you need",
-      description: "Contact us via chat, form, or phone call to describe your moving or removal needs.",
+      description: "Contact us via chat or phone call to describe your moving or removal needs.",
     },
     {
       icon: <Calculator className="h-16 w-16 text-red-600" />,
