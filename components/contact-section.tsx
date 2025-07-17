@@ -36,10 +36,10 @@ export function ContactSection() {
               <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
               <p className="text-gray-600">
                 <a
-                  href="mailto:brisonculpepper@gmail.com"
+                  href="mailto:brison@brisonsmoving.com"
                   className="hover:text-red-600 transition-colors"
                 >
-                  brisonculpepper@gmail.com
+                  brison@brisonsmoving.com
                 </a>
               </p>
             </CardContent>

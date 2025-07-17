@@ -25,7 +25,7 @@ export function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-300">
               <p>(678) 237-5235</p>
-              <p>brisonculpepper@gmail.com</p>
+              <p>brison@brisonsmoving.com</p>
               <p>Alpharetta, GA</p>
             </div>
           </div>
