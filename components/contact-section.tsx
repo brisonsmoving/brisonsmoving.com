@@ -63,9 +63,11 @@ export function ContactSection() {
                 Business Hours
               </h3>
               <p className="text-gray-600">
-                Mon-Sat: 7AM-7PM
+                Mon-Fri: 9AM-5PM
                 <br />
-                Sun: 9AM-5PM
+                Sat: 9AM-2PM
+                <br />
+                Sun: 9AM-12PM
               </p>
             </CardContent>
           </Card>
