@@ -16,21 +16,21 @@ export function AboutSection() {
             </h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                Hi, I'm Brison Culpepper, and I've been serving the Alpharetta
+                Hi, I&apos;m Brison Culpepper, and I&apos;ve been serving the Alpharetta
                 community with reliable moving and junk removal services. As a
                 local, solo operator, I understand the importance of personal
                 service and building trust with my neighbors.
               </p>
               <p>
                 What sets me apart is my commitment to treating your belongings
-                with the same care I'd want for my own. Whether you're moving
-                across town or need to clear out years of accumulated items, I'm
+                with the same care I&apos;d want for my own. Whether you&apos;re moving
+                across town or need to clear out years of accumulated items, I&apos;m
                 here to make the process as smooth and stress-free as possible.
               </p>
               <p>
                 I take pride in being punctual, fair with pricing, and going the
-                extra mile to ensure you're completely satisfied. When you work
-                with me, you're not just hiring a service – you're working with
+                extra mile to ensure you&apos;re completely satisfied. When you work
+                with me, you&apos;re not just hiring a service – you&apos;re working with
                 someone who genuinely cares about your experience.
               </p>
             </div>

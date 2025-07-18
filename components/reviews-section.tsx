@@ -29,7 +29,7 @@ export function ReviewsSection() {
             What Our Customers Say
           </h2>
           <p className="text-xl text-gray-600">
-            Don't just take our word for it – hear from satisfied customers
+            Don&apos;t just take our word for it – hear from satisfied customers
           </p>
         </div>
 
@@ -46,7 +46,7 @@ export function ReviewsSection() {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  "{review.text}"
+                  &quot;{review.text}&quot;
                 </p>
                 <p className="font-semibold text-gray-900">– {review.name}</p>
               </CardContent>

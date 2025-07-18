@@ -10,7 +10,7 @@ export function ContactSection() {
             Contact Information
           </h2>
           <p className="text-xl text-gray-600">
-            Ready to get started? Here's how to reach us
+            Ready to get started? Here&apos;s how to reach us
           </p>
         </div>
 
