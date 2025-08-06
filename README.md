@@ -94,5 +94,5 @@ vercel --prod
 
 ## 🧑‍💻 Author
 
-Developed and maintained by **Muhammad Saaad / CodeBedouin**.
+Developed and maintained by **Muhammad Saad / CodeBedouin**.
 For inquiries or support, contact **saad@codebedouin.dev**.
