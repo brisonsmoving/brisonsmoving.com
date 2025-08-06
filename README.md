@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚚 Brison's Moving & Junk Removal – Website
 
-## Getting Started
+This is the official website for **Brison Culpepper's Moving & Junk Removal**, a local moving and junk removal service based in **Alpharetta, GA**.
+The site is designed for speed, SEO, and seamless customer communication — including integration with a custom AI chatbot powered by **n8n**.
 
-First, run the development server:
+---
+
+## 🌟 Features
+
+* **Responsive Next.js site** – optimized for desktop & mobile
+* **Service listings** – moving, junk removal, and specialty jobs
+* **Contact & booking form** integrated with the chatbot
+* **AI-powered intake assistant** via n8n
+* **Google Calendar integration** – auto-suggests available slots
+* **Google Sheets CRM** – logs all inbound leads, even incomplete
+* Hosted on **Vercel** with custom domain
+* Secure with **Cloudflare** for DNS + HTTPS
+
+---
+
+## 🛠 Tech Stack
+
+* **Frontend**: [Next.js](https://nextjs.org/)
+* **Styling**: TailwindCSS
+* **Backend Automations**: [n8n](https://n8n.io/) (self-hosted on Google Cloud Run)
+* **Database**: [Neon Postgres](https://neon.tech/) (serverless, pooled)
+* **Hosting**: Vercel (frontend), Google Cloud Run (n8n)
+* **Integrations**: Google Calendar, Google Sheets
+* **Domain & SSL**: Cloudflare
+
+---
+
+## 🚀 Local Development
+
+**Requirements:**
+
+* Node.js
+* npm / bun / pnpm / yarn
+* Environment variables (see `.env.local.example`)
+
+**Clone the repo:**
+
+```bash
+git clone https://github.com/brisonsmoving/brisonsmoving.com.git
+cd brisonsmoving.com
+```
+
+**Install dependencies:**
+
+```bash
+npm install
+```
+
+**Run the development server:**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The site will be available at **[http://localhost:3000](http://localhost:3000)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Deployment
 
-## Learn More
+This repo is connected to **Vercel** under Brison’s account.
+When changes are pushed to the `main` branch, Vercel will automatically rebuild and deploy.
 
-To learn more about Next.js, take a look at the following resources:
+**To deploy manually:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+vercel --prod
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔗 Related Services
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **n8n Automation Backend**
+  Hosted at: `https://n8n.brisonsmoving.com`
+  Handles lead intake, quoting, Google Sheets logging, and Google Calendar scheduling.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📌 Maintenance Notes
+
+* Content edits (services, prices, about page) can be done via direct file changes or CMS (if integrated later).
+* Keep dependencies updated with `npm update` every few months.
+* For DNS or domain settings, manage via Cloudflare.
+* For automation workflows, update via the n8n dashboard.
+
+---
+
+## 🧑‍💻 Author
+
+Developed and maintained by **Muhammad Saaad / CodeBedouin**
+For inquiries or support, contact **saad@codebedouin.dev**.
