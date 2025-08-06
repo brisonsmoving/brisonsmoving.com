@@ -88,10 +88,11 @@ vercel --prod
 * Keep dependencies updated with `npm update` every few months.
 * For DNS or domain settings, manage via Cloudflare.
 * For automation workflows, update via the n8n dashboard.
+* All secrets and accounts are stored in Bitwarden.
 
 ---
 
 ## 🧑‍💻 Author
 
-Developed and maintained by **Muhammad Saaad / CodeBedouin**
+Developed and maintained by **Muhammad Saaad / CodeBedouin**.
 For inquiries or support, contact **saad@codebedouin.dev**.
